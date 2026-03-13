@@ -1,0 +1,15 @@
+{
+  "name": "swordfish-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Swordfish 电力交易后端服务",
+  "main": "trading-server.js",
+  "scripts": {
+    "start": "node trading-server.js",
+    "dev": "node --watch trading-server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  }
+}

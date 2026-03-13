@@ -1,0 +1,6 @@
+[build]
+command = "pnpm install"
+build = "node trading-server.js"
+
+[deploy]
+region = "jp"

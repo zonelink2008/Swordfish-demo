@@ -1,0 +1,6 @@
+[build]
+command = "pnpm install"
+build = "pnpm run build"
+
+[deploy]
+region = "jp"
