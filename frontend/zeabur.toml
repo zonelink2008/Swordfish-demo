@@ -1,6 +1,7 @@
 [build]
-command = "pnpm install"
+command = "pnpm install && pnpm run build"
 build = "pnpm run build"
+output = "dist"
 
 [deploy]
 region = "jp"
