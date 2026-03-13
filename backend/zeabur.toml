@@ -1,6 +1,8 @@
 [build]
-command = "pnpm install"
-build = "node trading-server.js"
+command = "npm install"
+
+[run]
+command = "node trading-server.js"
 
 [deploy]
 region = "jp"
